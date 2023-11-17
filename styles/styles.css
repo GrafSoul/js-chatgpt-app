@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #343541;
+    display: flex;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+
+.sidebar {
+    background-color: #202123;
+    width: 30%;
+    max-width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;   
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#output {
+    flex: 1;
+}
+
+.bottom-section {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info{
+    color:rgba(255, 255, 255, 0.3);
+    font-size: 11px;
+    padding: 20px;
+}
+
+input {
+    border: none;
+    background-color:rgba(255, 255, 255, 0.05);
+    padding: 12px 15px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 54px 55px,
+    rgba(0, 0, 0, 0.05) 0px -12px 30px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px,
+    rgba(0, 0, 0, 0.05) 0px 12px 3px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+.input-container  #submit{
+    position: absolute;
+    top: 7px;
+    right: 10px; 
+    font-size: 22px;
+    cursor: pointer;     
+}
+
+.button-new-chat {
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+}
+
+.history {   
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.history p {  
+    cursor: pointer;
+    margin: 0 0 5px;  
+}
+
+
+
+
+
